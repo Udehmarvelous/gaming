@@ -70,11 +70,3 @@ Add a screenshot of your game here (optional).
 
 👨‍💻 Author
 Made with ❤️ using Vanilla JavaScript.
-
-Would you like me to also format this into an actual README.md file (Markdown file) that you can drop directly into your project folder?
-
-
-
-
-No file chosenNo file chosen
-ChatGPT can make mistakes. Check important info.
