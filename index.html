@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="style.css">
+<title>Memory Card Game (JS)</title>
+
+</head>
+<body>
+<div class="app">
+<header>
+<div class="title">🃏 Memory Card Game</div>
+<div class="stats">
+<div class="pill">Moves: <strong id="moves">0</strong></div>
+<div class="pill">Time: <strong id="time">00:00</strong></div>
+<div class="pill">Pairs: <strong id="pairs">0</strong>/<span
+id="totalPairs">0</span></div>
+<div class="pill small">Best: <strong id="best">—</strong></div>
+</div>
+<div class="controls">
+<label for="size" class="small">Board</label>
+<select id="size" title="Board size">
+<option value="8">4×4 (8 pairs)</option>
+<option value="10">5×4 (10 pairs)</option>
+<option value="12">6×4 (12 pairs)</option>
+</select>
+<button id="restart">Restart</button>
+</div>
+</header>
+<div id="grid" class="grid" aria-label="Memory board" role="grid"></div>
+<div id="win" class="win">
+<div><strong>🎉 You matched all pairs!</strong></div>
+<div class="hint">Moves: <span id="finalMoves">0</span> • Time: <span
+id="finalTime">00:00</span></div>
+</div>
+</div>
+<script src="script.js">
+
+</script>
+</body>
+</html>
