@@ -1,3 +1,4 @@
+# Memory Card Game
 🃏 Memory Card Game (JavaScript)
 A simple and fun Memory Matching Card Game built with HTML, CSS, and Vanilla JavaScript.
 Test your memory by flipping cards, matching emoji pairs, and try to beat your best score in the least moves and shortest time possible!
